@@ -1,0 +1,41 @@
+<ion-view view-title="购物车"  hide-back-button="true" style="background: #ccc;">
+    <ion-nav-title>
+        <div class="bar bar-header">
+           <button class="button  button-clear icon-left ion-navicon " menu-toggle="true" style="color:#ef7e00" ></button>
+            <p class="title">购好货</p>
+            <button class="button button-clear button-icon ion-ios-cart-outline "
+                    style="color:#ef7e00;font-size: 25px;margin-left: 80%" ui-sref="tabs.checkOut">
+            </button>
+            <span class="badge"  style="color:#ef7e00 ;position: relative;left: -10px;font-size: 18px">{{totalNumber()}}</span>
+        </div>
+    </ion-nav-title>
+    <ion-content>
+        <div class="row text-center" style="margin-top:10px;background: #fff">
+            <div class="col"  ng-click="selectCategory()">
+                <img src="./images/icon01.png" style="width: 50%">
+                <p>所有商品</p>
+            </div>
+            <div class="col"
+                 ng-repeat="product in categories"
+                 ng-click="selectCategory(product.category)"
+                 ng-class="product.category==selectedCategory?'active':''"
+            >
+                <img ng-src="{{product.logo}}" style="width: 50%">
+                <p>{{product.category}}</p>
+            </div>
+        </div>
+        <!--所有商品-->
+        <div class="list">
+            <div class="item item-thumbnail-left"
+                 ng-repeat="product in data.productList | filter:filterByCategory "
+                 ng-click="toDetail(product)"
+            >
+                <img ng-src="{{product.imgsrc}}">
+                <h3 >{{product.name}}</h3>
+                <p>{{product.desc}}</p>
+                <h3 class="active">{{product.price  | currency:"RMB ￥"}}</h3>
+                <div class="bg" style="color: #fff;font-size: 12px;float: right;width: 65px;height: 30px;text-align: center;line-height: 30px;border-radius: 5px;" ng-click="add(product)">加入购物车</div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

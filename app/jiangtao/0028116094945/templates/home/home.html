@@ -1,0 +1,153 @@
+<ion-view   style="background: #ccc" hide-back-button="true">
+    <!--头部区域-->
+    <ion-nav-title>
+        <div class="bar bar-header  item-input-inset">
+            <button class="button  button-clear icon-right ion-navicon" menu-toggle="true" style="color:#ef7e00;margin-right: 10px" ></button>
+            <label class="item-input-wrapper">
+                <i class="icon ion-search placeholder-icon" ></i>
+                <input type="search" placeholder="search"/>
+            </label>
+            <button class="button button-clear ion-person" style="color:#ef7e00;font-size: 25px" ng-click="openModal()"></button>
+        </div>
+    </ion-nav-title>
+    <!--内容区域-->
+    <ion-content>
+        <!--slideBox-->
+        <ion-slide-box does-continue="true" auto-play="true" slide-interval="2000" show-pager="false"  style="background: #ccc">
+            <ion-slide>
+                <div class="box"><img src="./images/slide01.jpg" style="width: 100%"/></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box"><img src="./images/slide02.jpg"  style="width: 100%"/></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box"><img src="./images/slide03.jpg"  style="width: 100%"/></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box"><img src="./images/slide04.jpg"  style="width: 100%"/></div>
+            </ion-slide>
+        </ion-slide-box>
+        <!--内容区域-->
+        <div class="row text-center" style="margin-top:10px;background: #fff">
+            <div class="col active" ui-sref="menu">
+                <img src="./images/homeicon01.jpg" style="width: 50%">
+                <p>美食视频</p>
+            </div>
+            <div class="col " ui-sref="menu">
+                <img src="./images/homeicon02.jpg" style="width: 50%">
+                <p>美食菜单</p>
+            </div>
+            <div class="col" ui-sref="activities">
+                <img src="./images/homeicon03.jpg" style="width: 50%">
+                <p>美食活动</p>
+            </div>
+            <div class="col " ui-sref="menu">
+                <img src="./images/homeicon04.jpg" style="width: 50%">
+                <p>美食食谱</p>
+            </div>
+        </div>
+
+        <div class="list ">
+            <div class="item ">
+                <div class="row">
+                    <i class="icon ion-ios-eye-outline" style="color: #ef7e00;font-size: 20px"></i>
+                    <h3>成都周 围人都在看</h3>
+                </div>
+                <div class="row"  ui-sref="menu">
+                    <div class="col">
+                        <img src="./images/meishi01.jpg" style="width: 100%"><br>
+                        <p>美味虾球</p>
+                    </div>
+                    <div class="col">
+                        <img src="./images/meishi02.jpg" style="width: 100%"><br>
+                        <p>精致披萨</p>
+                    </div>
+                    <div class="col">
+                        <img src="./images/meishi03.jpg" style="width: 100%"><br>
+                        <p>肥美牛肉</p>
+                    </div>
+                    <div class="col">
+                        <img src="./images/meishi04.jpg" style="width: 100%"><br>
+                        <p>鲜嫩牛排</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--精选秀美食-->
+        <div class="list card">
+            <div class="item">
+                <div class="row changeContent"  >
+                    <div class="col col-25 col-offset-20 text-center " ng-click="previous()" ng-class="slideIndex== 0 ?'borderBottom':''">精选</div>
+                    <div class="col col-25 col-offset-10 text-center"  ng-click="next()" ng-class="slideIndex == 1 ? 'borderBottom':''">秀美食</div>
+                </div>
+            </div>
+        </div>
+        <ion-slide-box
+                on-slide-changed="slideChanged(index)"
+                delegate-handle="main"
+                show-pager="false"
+        >
+            <ion-slide>
+                <ion-slide-box does-continue="true" auto-play="true" slide-interval="2000" show-pager="false"  style="background: #ccc" ui-sref="activity">
+                    <ion-slide>
+                        <div class="box"><img src="./images/activities01.png" style="width: 100%"/></div>
+                    </ion-slide>
+                    <ion-slide>
+                        <div class="box"><img src="./images/jingxuan02.png"  style="width: 100%"/></div>
+                    </ion-slide>
+                    <ion-slide>
+                        <div class="box"><img src="./images/jingxuan03.png"  style="width: 100%"/></div>
+                    </ion-slide>
+                </ion-slide-box>
+                <div class="list card" ng-repeat="select in selected">
+                    <div class="item item-image">
+                        <img ng-src="{{select.imgsrc}}">
+                    </div>
+                    <div class="item">
+                        <p> {{select.desc}}</p>
+                        <p > <span>{{select.like}}</span>人喜欢 &nbsp; <span>{{select.chat}}人评论</span> &nbsp; <span>{{select.done}}人做过</span></p>
+                    </div>
+                    <div class="item tabs tabs-icon-left" style="color:#ef7e00">
+                        <a class="tab-item " ng-click="addNum(select)"><i class="icon ion-heart"></i>喜欢</a>
+                        <a class="tab-item "><i class="icon ion-chatbox "></i>评论</a>
+                        <a class="tab-item "><i class="icon ion-share" ng-click="show()"></i>分享</a>
+                    </div>
+                </div>
+           </ion-slide>
+            <ion-slide>
+                <div class="list card" ng-repeat="trend in trends">
+                    <div class="item item-avatar">
+                        <img ng-src="{{trend.headImg}}">
+                        <h3>{{trend.name}}</h3>
+                        <p>{{trend.date}}</p>
+                    </div>
+                    <div class="item" style="white-space: normal">{{trend.opinion}}</div>
+                    <div class="item item-image">
+                        <img ng-src="{{trend.imgsrc}}">
+                    </div>
+                </div>
+
+            </ion-slide>
+        </ion-slide-box>
+    </ion-content>
+    <!--导航-->
+    <ion-tabs class="tabs-icon-top">
+        <ion-tab title="首页" ui-sref="home"
+                 icon-on="ion-ios-home" icon-off="ion-ios-home-outline" class="active">
+            <!--改为命名的navView-->
+        </ion-tab>
+        <ion-tab title="动态" ui-sref="tabs.trends"
+                 icon-on="ion-ios-people" icon-off="ion-ios-people-outline"  class="active">
+        </ion-tab>
+        <ion-tab title="附近" ui-sref="tabs.nearby"
+                 icon-on="ion-ios-location" icon-off="ion-ios-location-outline"  class="active">
+        </ion-tab>
+        <ion-tab title="购物车"
+                 ui-sref="tabs.cart"  icon-on="ion-ios-cart" icon-off="ion-ios-cart-outline"  class="active">
+        </ion-tab>
+    </ion-tabs>
+
+
+</ion-view>
+
+

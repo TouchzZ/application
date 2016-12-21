@@ -1,0 +1,16 @@
+<ion-view  style="background: #ccc;">
+    <ion-nav-title>
+        <div class="bar bar-header ">
+            <p class="title zhuyanse">最新菜谱</p>
+        </div>
+    </ion-nav-title>
+    <ion-content>
+        <div class="list card" ng-repeat="menu in menus" ui-sref="recipe">
+            <div class="item" >
+                <img ng-src="{{menu.imgsrc}}" style="width: 100%">
+                <p class="zhuyanse" style="color: #ef7e00">{{menu.name}}</p>
+                <p>浏览({{menu.look}}) 评论({{menu.comment}})</p>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

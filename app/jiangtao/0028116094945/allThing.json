@@ -1,0 +1,44 @@
+{
+  "selected":[
+    {"imgsrc":"./images/homeCard01.png","desc":"暖心暖身★韩国泡菜辣炒年糕","like":1,"chat":121,"done":42},
+    {"imgsrc":"./images/homeCard02.png","desc":"★馄饨皮花朵包","like":2,"chat":4,"done":12},
+    {"imgsrc":"./images/homeCard03.png","desc":"★干锅圆白菜","like":21,"chat":1,"done":21},
+    {"imgsrc":"./images/homeCard04.png","desc":"★土豆烧鸡翅根","like":121,"chat":1,"done":1},
+    {"imgsrc":"./images/homeCard05.png","desc":"★黑椒牛排★","like":543,"chat":12,"done":221}
+  ],
+  "trends":[
+    {"name":"蜜桃爱烘焙","headImg":"./images/v001.jpg","form":"美食杂谈","date":"今天","imgsrc":"./images/homeCard01.png","opinion":"初冬，凉飕飕，做一个暖心暖身的菜肴。继上次泡菜五花肉的基础上，加上年糕、千页豆腐，炒一炒。就是赫赫有名的韩国炒年糕啦。做了2人份。"},
+    {"name":"微笑momo宝贝","headImg":"./images/v002.jpg","form":"爱心早餐","date":"两小时前","imgsrc":"./images/homeCard05.png","opinion":"牛肉含有丰富的蛋白质，氨基酸。其组成比猪肉更接近人体需要，能提高机体抗病能力，对生长发育及手术后、病后调养 的人在补充失血和修复组织等方面特别适宜。"},
+    {"name":"橘橘橘子er ","headImg":"./images/v003.jpg","form":"爱烘培","date":"两小时前","imgsrc":"./images/trends03.png","opinion":"我只能说能不买外面超市里的零食就不买，每次去超市买白糖 牛奶 日用品的时候小朋友就会被货架子上各种花哨的零食所吸引，小朋友每次还是挺配合的"},
+    {"name":"松鼠鱼77 ","headImg":"./images/v004.jpg","form":"拿手菜","date":"昨天","imgsrc":"images/homeCard02.png","opinion":"包馄饨剩余一些馄饨皮，成了鸡肋，食之无味弃之可惜，包上青豆、甜玉米粒，马苏里拉芝士馅，给它来个华丽丽地大转身吧！"},
+    {"name":"蜜桃爱烘焙","headImg":"./images/v005.jpg","form":"美食杂谈","date":"前天","imgsrc":"./images/homeCard01.png","opinion":"初冬，凉飕飕，做一个暖心暖身的菜肴。继上次泡菜五花肉的基础上，加上年糕、千页豆腐，炒一炒。就是赫赫有名的韩国炒年糕啦。做了2人份。"}
+  ],
+  "nearby":[
+    {"imgsrc":"./images/neb01.jpg","shopName":"澳洲肥牛捞捞锅","desc":"仅售59元，价值68元肥牛捞捞锅单人自助1份！免费WiFi","address":"成都市青羊区西大街84号金色夏威夷二楼","telephone":"02886269888","feature":"适宜商务宴请、休闲时光、休闲小憩、随便吃吃、情侣约会、家庭聚会、朋友聚餐特色服务：有露天位，可以刷卡，有包厢，有夜宵，有wifi。"},
+    {"imgsrc":"./images/neb02.jpg","shopName":"玛萨蛋糕","desc":"仅售22.1元，价值28元代金券！提供免费WiFi，节假日通用！可叠加使用，仅限自提！","address":"成都市青羊区新开寺街15号（近草市街）距文殊院站约","telephone":"18981863767","feature":"四川省金诺瑞食品有限公司成立于1992年，是以生产蛋糕、面包、月饼、粽子等为主的包含餐饮服务的民营烘焙企业。"},
+    {"imgsrc":"./images/neb03.png","shopName":"悦享海鲜自助豆捞","desc":"仅售73元，价值88元单人自助！免费WiFi！","address":"成都市双流县华阳镇戛纳滨江华龙大桥北侧(珺龙尊宴二楼)","telephone":"02881505053","feature":"仅售73元，价值88元单人自助！免费WiFi！"},
+    {"imgsrc":"./images/neb04.png","shopName":"重庆叮叮冷锅鱼(抚琴店)","desc":"仅售25.8元，最高价值55元抚琴店单人自助鱼火锅！优质的选料，精良的加工，独特的配方，香味浓郁，鲜嫩适口，百吃不厌，百吃不腻，免费WiFi！","address":"成都市金牛区抚琴南路1号(近青羊小区)抚琴东南路与青羊北路交汇处","telephone":"02887793491","feature":"重庆叮叮冷锅鱼是成都超高人气的连锁冷锅鱼店,具有悠久的历史 ,装修精致,材料新鲜,小吃素菜种类丰富,鱼类都是当天现杀,绝不出现存货.到本店吃鱼,放心,安心."},
+    {"imgsrc":"./images/neb05.png","shopName":"WOW西餐吧(科华北路店)","desc":"仅售128元，价值303元6至8人套餐！节假日通用，店内提供免费WiFi，免费停车，免费WiFi！","address":"成都市武侯区科华北路63号三楼（磨子村公交站处）","telephone":"18502800168","feature":""},
+    {"imgsrc":"./images/neb06.png","shopName":"串串STYLE","desc":"仅售69.9元，价值110元3人餐，免费停车，免费WiFi","address":"成都市郫县团结镇理工一区040-043 （传媒学院旁小巷）","telephone":"18113048733","feature":"颠覆你对串串的传统印象，享受别样的就餐感受，体验味觉、视觉、听觉的完美碰撞，这里，除了别样的小资情调，除了成都串串的传统风味，还有各种特色黑啤、生啤、蓝莓啤酒、菠萝啤、茅台啤酒、梅子酒适合不同口味的人群，好些口味的啤酒在成都其他串串店都几乎喝不到的，店里还精心推出了各种甜品，“串串+甜品”这种当下时尚的混搭风，就在串串style！"},
+    {"imgsrc":"./images/neb07.png","shopName":"海德堡海鲜牛排自助","desc":"仅售95元，价值99元单人自助1份！免费WiFi！！","address":"成都市锦江区春熙路西段19号3楼（原金韩城烤肉阿根达斯左侧）","telephone":"02887563937","feature":""}
+
+  ],
+  "categories":[
+    {"id":"10001","category":"烘焙美食","logo":"./images/icon02.png"},
+    {"id":"10002","category":"休闲食品","logo":"./images/icon03.png"},
+    {"id":"10003","category":"精选生鲜","logo":"./images/icon04.png"}
+    ],
+  "menu":[
+    {"imgsrc":"./images/menu01.png","name":"视频版法式煎牛排","look":2113,"comment":132},
+    {"imgsrc":"./images/menu02.png","name":"油醋千岛酱汁鸡胸沙拉","look":1221,"comment":313},
+    {"imgsrc":"./images/menu03.png","name":"牛肉白汁通心粉#百味","look":2123,"comment":14332},
+    {"imgsrc":"./images/menu04.png","name":"蝴蝶意面沙拉#百味来","look":2133,"comment":132},
+    {"imgsrc":"./images/menu05.png","name":"三文鱼蝴蝶意大利面#","look":2213,"comment":1312},
+    {"imgsrc":"./images/menu06.png","name":"惠灵顿牛排","look":23,"comment":132}
+  ],
+  "activities":[
+    {"imgsrc":"./images/activities01.png","name":"寻味童年","date":"2016.11.11 - 2016.11.28"},
+    {"imgsrc":"./images/activities02.png","name":"新良烘焙大赛","date":"2016.12.30 - 2016.12.08"},
+    {"imgsrc":"./images/activities03.png","name":"美食天下丶红","date":"2016.07.27 - 2016.08.28"}
+  ]
+}

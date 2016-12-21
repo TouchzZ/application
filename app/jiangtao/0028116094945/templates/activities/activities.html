@@ -1,0 +1,16 @@
+<ion-view  style="background: #abdde8">
+    <ion-nav-title>
+        <div class="bar bar-header ">
+            <p class="title zhuyanse">最新活动</p>
+        </div>
+    </ion-nav-title>
+    <ion-content>
+        <div class="list card" ng-repeat="activity in activities" ui-sref="activity">
+            <div class="item">
+                <img ng-src="{{activity.imgsrc}}" style="width: 100%">
+                <h3 class="zhuyanse fangsong">{{activity.name}}</h3>
+                <p>活动日期：<span class="zhuyanse">{{activity.date}}</span></p>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

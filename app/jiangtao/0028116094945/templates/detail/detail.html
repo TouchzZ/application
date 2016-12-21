@@ -1,0 +1,23 @@
+    <ion-view style="background: #abdde8" >
+        <ion-nav-title>商品明细</ion-nav-title>
+        <ion-nav-buttons side="right">
+            <button class="button button-clear button-icon ion-ios-cart-outline icon-right"
+                    style="color:#ef7e00;font-size: 25px;" ui-sref="tabs.checkOut">
+            </button>
+            <span class="badge" style="color:#ef7e00 ;position: relative;left: -15px;font-size: 18px">{{totalNumber()}}</span>
+        </ion-nav-buttons>
+        </ion-nav-bar>
+
+        <ion-content>
+       <div class="list card">
+           <div class="item">
+               <p class="zhuyanse">商品名称：{{product.name}}</p>
+               <div class="bg"
+                    style="color: #fff;font-size: 10px;float: right;width: 65px;height: 30px;text-align: center;line-height: 30px;border-radius: 5px;margin-top: -10px;" ng-click="add(product)">加入购物车</div>
+               <p>商品价格：{{product.price | currency:"RMB ￥"}}</p>
+               <p style="white-space: normal">商品描述：{{product.desc}}</p>
+               <p><img ng-src="{{product.imgsrc}}" style="width: 100%"></p>
+           </div>
+       </div>
+    </ion-content>
+</ion-view>

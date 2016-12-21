@@ -1,0 +1,33 @@
+<ion-view  hide-back-button="true"  style="background: #ccc">
+    <ion-nav-title>
+        <div class="bar bar-header">
+            <button class="button  button-clear icon-right ion-navicon " menu-toggle="true" style="color:#ef7e00" ></button>
+            <p class="title">周围动态</p>
+            <button class="button button-clear ion-ios-chatbubble-outline" style="color:#ef7e00;font-size: 25px" ></button>
+        </div>
+    </ion-nav-title>
+    <ion-content>
+        <!--slideBox-->
+        <ion-slide-box does-continue="true" auto-play="true" slide-interval="2000"   style="background: #ccc;margin-top: 8px">
+            <ion-slide>
+                <div class="box"><img src="./images/trends01.png" style="width: 100%"/></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box"><img src="./images/trends02.png"  style="width: 100%"/></div>
+            </ion-slide>
+        </ion-slide-box>
+        <!--card list-->
+        <div class="list card" ng-repeat="trend in trends">
+            <div class="item item-avatar">
+                <img ng-src="{{trend.headImg}}">
+                <h3>{{trend.name}}</h3>
+                <p>{{trend.date}}</p>
+            </div>
+            <div class="item" style="white-space: normal">{{trend.opinion}}</div>
+            <div class="item item-image">
+                <img ng-src="{{trend.imgsrc}}">
+            </div>
+            <div class="item text-right">来自<span style="color: #ef7e00">{{trend.form}}</span></div>
+        </div>
+    </ion-content>
+</ion-view>

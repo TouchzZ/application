@@ -1,0 +1,17 @@
+.borderBottom{border-bottom: 1px solid #f66c53}
+.active{color:#ef7e00}
+.bg{background:#ef7e00}
+.num{width:20px;height: 20px;display: inline-block;border: 1px solid #ccc;text-align: center;margin-top: 10px;line-height: 20px}
+input::-webkit-input-placeholder{font-family: "仿宋";font-size: 16px}
+.center{text-align: center}
+.zhuyanse{color: #ef7e00;font-size: 16px;font-weight: bolder}
+.rowBg{background: #ccc}
+.select{color: red}
+/*引导页面*/
+/*整个幻灯*/
+#tour-view .slider{height:100%; }
+
+/*每个幻灯页*/
+#tour-view .slider-slide{
+    text-align: center;
+}

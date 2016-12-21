@@ -1,0 +1,52 @@
+<ion-view >
+    <!--<ion-nav-title id="list">-->
+        <!--<div class="bar bar-header"  >-->
+            <!--<button class="button button-clear button-icon ion-ios-cart-outline icon-right"-->
+                    <!--style="color:#ef7e00;font-size: 25px;margin-left: 80%" ui-sref="tabs.checkOut">-->
+            <!--</button>-->
+            <!--<p class="title">商品列表</p>-->
+            <!--<span class="badge" style="color:#ef7e00 ;position: relative;left: -10px;font-size: 18px">{{checkNumber()}}</span>-->
+        <!--</div>-->
+    <!--</ion-nav-title>-->
+    <ion-nav-title>商品列表</ion-nav-title>
+        <ion-nav-buttons side="right">
+            <button class="button button-clear button-icon ion-ios-cart-outline icon-right"
+                style="color:#ef7e00;font-size: 25px;" ui-sref="tabs.checkOut">
+            </button>
+                <span class="badge" style="color:#ef7e00 ;position: relative;left:-15px;font-size: 18px">{{checkNumber()}}</span>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-content>
+            <!--空购物车-->
+      <div class="list" ng-show="cart.length==0">
+          <div class="item">
+              <p style="float: left">你的购物车是空</p>
+              <div class="bg "  style="color: #fff;font-size: 12px;float: right;width: 60px;height: 30px;text-align: center;line-height: 30px;border-radius: 5px;" ui-sref="tabs.cart">继续购物</div>
+          </div>
+      </div>
+        <!--有商品的购物车-->
+        <div class="list" ng-show="cart.length!=0">
+            <div class="item item-thumbnail-left" ng-repeat="item in cart">
+                <img ng-src="{{item.product.imgsrc}}">
+                <div style="float: left">
+                    <h3 class="fangsong">{{item.product.name}}</h3>
+                    <h3 class="active">{{item.product.price | currency:"￥"}}</h3>
+                    <span class="num" ng-click="reduce(item)">-</span>
+                    <span class="num">{{item.number}}</span>
+                    <span class="num" ng-click="plus(item)">+</span>
+                </div>
+                <div class="bg" style="color: #fff;font-size: 12px;width: 65px;height: 30px;text-align: center;line-height: 30px;border-radius: 5px;float: right" ng-click="remove(item)">删 除</div>
+            </div>
+            <div class="item ">
+                <p>商品小计共：{{checkNumber()}}件</p>
+                <p >总金额:{{summary() | currency:"RMB ￥"}}</p>
+            </div>
+            <div class="item ">
+               <div class="row">
+                   <div class="col col-offset-20"><div class=" bg " style="color: #fff;font-size: 12px;width: 65px;height: 30px;text-align: center;line-height: 30px;border-radius: 5px;" ui-sref="tabs.cart">继续购物</div></div>
+                   <div class="col"><div class=" bg " style="color: #fff;font-size: 12px;width: 65px;height: 30px;text-align: center;line-height: 30px;border-radius: 5px;" ui-sref="tabs.order">提交订单</div></div>
+               </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

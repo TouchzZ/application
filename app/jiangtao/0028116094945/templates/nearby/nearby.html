@@ -1,0 +1,24 @@
+<ion-view  hide-back-button="true" style="background:#ccc">
+    <ion-nav-title>
+        <div class="bar bar-header">
+            <button class="button  button-clear icon-right ion-navicon " menu-toggle="true" style="color:#ef7e00" ></button>
+            <p class="title">附近餐厅</p>
+            <button class="button button-clear ion-ios-location" style="color:#ef7e00;font-size: 25px" ></button>
+        </div>
+    </ion-nav-title>
+    <ion-content>
+        <div class="list card" ng-repeat="shop in nearby">
+            <div class="item item-avatar">
+                <img ng-src="{{shop.imgsrc}}">
+                <h2 style=";word-break: break-all">{{shop.shopName}}</h2>
+                <p style="word-break: keep-all">{{shop.desc}}</p>
+            </div>
+            <div class="item item-image">
+                <img ng-src="{{shop.imgsrc}}">
+            </div>
+            <p>地址：{{shop.address}}</p>
+            <p>电话：{{shop.telephone}}</p>
+            <p>特色：{{shop.feature}}</p>
+        </div>
+    </ion-content>
+</ion-view>

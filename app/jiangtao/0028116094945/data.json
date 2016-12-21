@@ -1,0 +1,24 @@
+[
+  {"category":"休闲食品","imgsrc":"./images/cart01.png","name":"韩国进口18cm黄金拉面锅","price":29.90,"desc":"（1个装） 厨立芙出品"},
+  {"category":"烘焙美食","imgsrc":"./images/cart02.png","name":"麓语山物 农家碳烤地瓜干红薯干","price":23.80,"desc":"农家碳烤地瓜干红薯干 400g 零食小吃包邮"},
+  {"category":"烘焙美食","imgsrc":"./images/cart03.png","name":"品厨烘培","price":48.00,"desc":"蔓越莓套餐+饼干模 可做80块"},
+  {"category":"烘焙美食","imgsrc":"./images/cart04.png","name":"焦糖饼干","price":6.60,"desc":"【包邮】乐倍爱 比利时进口焦糖饼干150g 独立包装"},
+  {"category":"烘焙美食","imgsrc":"./images/cart05.png","name":"法国黄油 ","price":49.00,"desc":"【家人都爱吃】西厨贝可 蛋挞皮72个装 KFC蛋挞半成品 送保温袋 顺丰包邮"},
+  {"category":"烘焙美食","imgsrc":"./images/cart06.png","name":"蛋挞皮72个装  ","price":16.80,"desc":"百钻 法国黄油 200g 无盐发酵黄油 烘焙原料"},
+  {"category":"烘焙美食","imgsrc":"./images/cart07.png","name":"特色早餐蒸点心 ","price":99.00,"desc":"邻家小厨 广东特色早餐蒸点心 广式点心组合 6款1410g"},
+  {"category":"烘焙美食","imgsrc":"./images/cart08.png","name":"东北粘豆包 ","price":9.90,"desc":"【3袋包邮】正宗东北粘豆包280g 传统民俗风味"},
+  {"category":"休闲食品","imgsrc":"./images/cart09.png","name":"美孕良品 ","price":9.90,"desc":"【2周年庆】美孕良品 | 云南桃胶100g | 平民燕窝（推荐女神养颜套餐搭配）"},
+  {"category":"休闲食品","imgsrc":"./images/cart10.png","name":"日本Calbee/麦片 ","price":55.00,"desc":"日本Calbee/卡乐比营养早餐水果颗粒果仁谷物800g冲饮麦片"},
+  {"category":"休闲食品","imgsrc":"./images/cart11.png","name":"黑芝麻酥 ","price":29.80,"desc":"【买就送90g米花酥】黄老五 黑芝麻酥188g*3袋"},
+  {"category":"休闲食品","imgsrc":"./images/cart12.png","name":"蔓越莓饼干 ","price":38.80,"desc":"【新手必备】巧厨 蔓越莓饼干套餐（可做约80块）"},
+  {"category":"休闲食品","imgsrc":"./images/cart13.png","name":"原生态新疆黑蜂山花蜂巢蜜","price":58.00,"desc":"舌尖上Honey 原生态新疆黑蜂山花蜂巢蜜 280g/盒"},
+  {"category":"精选生鲜","imgsrc":"./images/cart14.png","name":"九百亩阳澄湖大闸蟹","price":99.00,"desc":"【今日下单就多送2只】现货 九百亩阳澄湖大闸蟹鲜活螃蟹 公3.2-3.5两3只 母蟹2.2-2.5两3只 共发8只"},
+  {"category":"精选生鲜","imgsrc":"./images/cart15.png","name":"新鲜羔羊肉生羊脊","price":99.00,"desc":"【买一赠一】小尾羊 羊蝎子3斤内蒙古新鲜羔羊肉生羊脊骨羊蝎子火锅"},
+  {"category":"精选生鲜","imgsrc":"./images/cart16.png","name":"整只生羊腿","price":159.00,"desc":"鲜动生活 新西兰进口羔羊腿4斤单只装 整只生羊腿"},
+  {"category":"精选生鲜","imgsrc":"./images/cart17.png","name":"生鲜活鲍鱼","price":169.00,"desc":"浪里鲜|海捕野生鲜活鲍鱼 500g"},
+  {"category":"精选生鲜","imgsrc":"./images/cart18.png","name":"野生带壳生蚝","price":86.90,"desc":"浪里鲜|野生带壳生蚝5斤装L号 现捕现发 顺丰包邮"},
+  {"category":"精选生鲜","imgsrc":"./images/cart19.png","name":"法国猪肋排骨","price":39.90,"desc":"春播 法国猪肋排骨1000g(限京沪杭)"},
+  {"category":"精选生鲜","imgsrc":"./images/cart20.png","name":"野生红扇贝","price":86.90,"desc":"浪里鲜|野生红扇贝4斤装 现捕现发"},
+  {"category":"精选生鲜","imgsrc":"./images/cart21.png","name":"红心蜜柚","price":36.90,"desc":"烟港 红心蜜柚加白肉柚子4颗装 重8-9斤大果包邮"}
+
+]
