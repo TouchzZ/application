@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>康体娱乐</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=1">
+    <link href="../../css/swiper.min.css" rel="stylesheet" type="text/css">
+    <link href="../../css/BeiYuanDaJiuDian.css" rel="stylesheet" type="text/css">
+    <link href="../../css/style.css" rel="stylesheet" type="text/css">
+    <script src="../../js/lib/swiper.js"></script>
+    <script src="../../js/lib/jquery-3.1.0.js"></script>
+    <script src="../../js/myapp.js"></script>
+   <script src="detail.js"></script>
+   <script src="../../js/modal.js"></script>
+</head>
+<body class="bodyBuilding doubleRoom" >
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <!--主内容区域-->
+        <div class="swiper-slide content">
+            <div class="commonHeader">
+                <div class="cBack">
+                    <a href="delicious.html"><img src="../../images/colorArrow.png"></a>
+                </div>
+                <div class="cTitle">餐饮美食</div>
+                <div class="menu-button">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+            <!--swiper-container 作为一个图片切换的容器-->
+            <div class=" swiper-container-v">
+                <div class="swiper-wrapper" id="mainContent">
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                </div>
+                <div class="swiper-pagination swiper-pagination-v"></div>
+            </div>
+            <div class="information">
+                <div class="subTitle" id="subTitle"></div>
+                <div class="doubleRoomDesc">
+                    你需要的是一份有情怀的美食
+                    湘，本心所在，热情火辣
+                    粤，味随季变，情在菜中
+                    甘鲜醇厚尽在舌尖
+                    一馐一馔无不包容湘情粤意。
+                </div>
+                <ul>
+                    <li>地点：酒店1层 自助餐厅</li>
+                    <li>营业时间：</li>
+                    <li>午餐:10:30-14:30</li>
+                    <li>晚餐:15:30-22:00</li>
+
+                </ul>
+                <div class="reserve">
+                    <a id="reserve">立即预定</a>
+                </div>
+            </div>
+        </div>
+        <!--侧边栏-->
+        <div class="swiper-slide menu" style="position: relative">
+            <div class="menuContent" style="position: absolute;top:0;left: 0;">
+                <ul>
+                    <li><a href="../../index.html">首页</a></li>
+                    <li><a href="../entertainment/entertainment.html">康体娱乐</a></li>
+                    <li><a href="../exhibition/exhibition.html">会议展厅</a></li>
+                    <li><a href="../wedding/wedding.html">婚宴婚庆</a></li>
+                    <li><a href="../reservation/roomList.html">舒适客房</a></li>
+                    <li><a href="../delicious/delicious.html">餐饮美食</a></li>
+                    <li><a href="../office/office.html">商务办公</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="modal"></div>
+<div class="contactBox" id="contactBox" >
+    <div class="telephone" id="title">010-8483226</div>
+    <div class="btn cancel" id="cancel">取消</div>
+    <div class="btn sure">通话</div>
+</div>
+</body>
+</html>

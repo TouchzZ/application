@@ -1,0 +1,9 @@
+[
+  {"name":"","imgsrc":"../../images/roomList01.png","desc":"客房设施齐全、舒适房间色调柔和，充满东方古典韵味设有步入式衣帽间，休息区与工作区提供全方位的至尊享受。"},
+  {"name":"豪华套餐","imgsrc":"../../images/roomList01.png","desc":""},
+  {"name":"行政套餐","imgsrc":"../../images/roomList02.png","desc":""},
+  {"name":"豪华大床房","imgsrc":"../../images/roomList03.png","desc":""},
+  {"name":"精品特色房","imgsrc":"../../images/roomList04.png","desc":""},
+  {"name":"普通大床房","imgsrc":"../../images/roomList05.png","desc":""},
+  {"name":"标准双人间","imgsrc":"../../images/roomList06.png","desc":""}
+]

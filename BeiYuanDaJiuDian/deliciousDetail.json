@@ -1,0 +1,57 @@
+[
+  {
+    "name":"四季厅",
+    "imgsrc":[
+      "../../images/delicious.png",
+      "../../images/delicious01.png",
+      "../../images/delicious02.png"
+
+    ]
+  },
+  {
+    "name":"四季厅",
+    "imgsrc":[
+      "../../images/delicious01.png",
+      "../../images/delicious02.png",
+      "../../images/delicious.png"
+
+    ]
+  },
+  {
+    "name":"会议自助",
+    "imgsrc":[
+      "../../images/delicious02.png",
+      "../../images/delicious01.png",
+      "../../images/delicious.png"
+
+    ]
+  },
+  {
+    "name":"冷餐",
+    "imgsrc":[
+      "../../images/delicious01.png",
+      "../../images/delicious02.png",
+      "../../images/delicious.png"
+
+    ]
+  },
+  {
+    "name":"茶歇",
+    "imgsrc":[
+      "../../images/delicious02.png",
+      "../../images/delicious01.png",
+      "../../images/delicious.png"
+
+    ]
+  },
+  {
+    "name":"大堂吧",
+    "imgsrc":[
+      "../../images/delicious01.png",
+      "../../images/delicious02.png",
+      "../../images/delicious.png"
+
+    ]
+  }
+
+]

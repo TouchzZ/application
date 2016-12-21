@@ -1,0 +1,97 @@
+/*设计稿的宽高*/
+/*样式预设*/
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  outline: none;
+}
+img {
+  border: none;
+  vertical-align: top;
+}
+input {
+  border: none;
+  outline: none;
+}
+textarea {
+  resize: none;
+}
+li {
+  list-style: none;
+}
+/*清理浮动*/
+.clearfix:after {
+  content: "200B";
+  display: block;
+  height: 0;
+  font-size: 0;
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+/*ie6双倍边距兼容；块级元素：float+margin*/
+.fl {
+  float: left;
+  _display: inline;
+}
+.fr {
+  float: right;
+  _display: inline;
+}
+/*属性：值/9;ie浏览器；*属性：值 ie6/7，_ie6*/
+i,
+em {
+  font-style: normal;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.dota_loL ul {
+  width: 1.68rem;
+  position: absolute;
+  left: 0.68rem;
+  top: 2.62rem;
+}
+.dota_loL ul li {
+  line-height: 1.06rem;
+  font-size: 0.32rem;
+  text-align: center;
+  padding-bottom: 0.02rem;
+  position: relative;
+  font-weight: bold;
+  font-family: "苹方";
+}
+.dota_loL ul li:after {
+  content: "";
+  display: block;
+  width: 1.68rem;
+  height: 0.02rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff, rgba(255, 255, 255, 0));
+}
+.dota_loL ul li a {color: #fff;}
+.commonHeader{height: .88rem;width:100%;padding:0 0.3rem;line-height: .88rem;background: #190d07;color: #fff;}
+.commonHeader .cBack {float: left}
+.commonHeader .cBack a{line-height: .88rem;}
+.commonHeader .cBack a img{width:.2rem;height: .37rem;float: left;margin-top: .25rem}
+.commonHeader .cTitle {float: left;margin-left: 2.64rem;font-size: .32rem;}
+
+.menu {min-width: 1rem;width: 70%;max-width:2.9rem;background: #2e1a10;color: #fff;z-index: 999; position: relative;padding-top: 172%}
+.noPadding{padding-top: 0;}
+.other{padding-top: 147%}
+.bodyBuilding .content { width: 100%; }
+.menu-button { position: absolute;top: 0; right: 0;margin: .25rem .45rem 0 0;cursor: pointer;  }
+.bar {width: .4rem;height: 0.07rem;margin-bottom: 0.08rem;background-color: #6d3f28;  }
+.bar:nth-of-type(3){margin-bottom:0 ;}
+/*侧边栏*/
+.menuContent ul{margin-top: 3.3rem}
+.menuContent li{margin-left: .32rem;height: .76rem;}
+.menuContent a{font-size: .32rem;text-align: left;display: block;color: #fff;}

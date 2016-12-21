@@ -1,0 +1,25 @@
+[
+  {
+    "name":"北苑",
+    "imgsrc":[
+      "../../images/entertainmentPic01.png",
+      "../../images/entertainmentPic02.png"
+    ]
+
+  },
+  {
+    "name":"北苑健身",
+    "imgsrc":[
+      "../../images/entertainmentPic02.png",
+      "../../images/entertainmentPic01.png"
+    ]
+
+  },
+  {
+    "name":"北苑温泉",
+    "imgsrc":[
+      "../../images/entertainmentPic03.png",
+      "../../images/entertainmentPic02.png"
+    ]
+  }
+]
